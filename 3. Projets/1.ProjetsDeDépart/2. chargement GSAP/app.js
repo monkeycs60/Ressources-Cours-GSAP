@@ -27,11 +27,11 @@ tl
 .to (titre1, {keyframes : [
     {translateY: '10%'},
     {height: '20%'},
-]})
+]}, "-=0.8" )
 .to (titre2, {keyframes : [
-    {translateY: '10%'},
+    {translateY: '10%'}, 
     
-]})
+]}, "-=0.2")
 .to (bgRed,  {translateY: '-100%', duration : 3})
 .to (image1, {autoAlpha: 0}, '-=2.2')
 .to (blocLoad, {autoAlpha: 0})
