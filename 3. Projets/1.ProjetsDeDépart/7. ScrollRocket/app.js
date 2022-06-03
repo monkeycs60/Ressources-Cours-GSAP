@@ -50,7 +50,7 @@ function splashFusee(block, distance) {
         trigger: containerScroll,
         start: "0% 50%",
         end: "bottom bottom",
-        scrub: 1,
+        scrub: true,
      
 
 
@@ -69,6 +69,7 @@ function destroyOpacity(numberblock, blockscroll,end){
             start: "0% 80%",
             end: end,
             markers: true,
+            scrub: true,
     
     
     }
